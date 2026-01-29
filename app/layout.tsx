@@ -5,6 +5,23 @@ export const metadata: Metadata = {
   title: '李渔AI - AI编程工具作品集',
   description: '多年B端产品经理，沉迷于AI编程。展示AI编程工具产品集。',
   keywords: ['AI编程', '产品经理', '开发工具', '李渔AI'],
+  metadataBase: new URL('https://leefishai.top'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: '李渔AI - AI编程工具作品集',
+    description: '多年B端产品经理，沉迷于AI编程。展示AI编程工具产品集。',
+    url: 'https://leefishai.top',
+    siteName: '李渔AI',
+    locale: 'zh_CN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: '李渔AI - AI编程工具作品集',
+    description: '多年B端产品经理，沉迷于AI编程。展示AI编程工具产品集。',
+  },
 };
 
 export default function RootLayout({
