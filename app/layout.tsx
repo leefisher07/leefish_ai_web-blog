@@ -39,6 +39,24 @@ export const metadata: Metadata = {
         sizes: '32x32',
         type: 'image/png',
       },
+      {
+        rel: 'icon',
+        url: '/favicon-48x48.png',
+        sizes: '48x48',
+        type: 'image/png',
+      },
+      {
+        rel: 'icon',
+        url: '/favicon-64x64.png',
+        sizes: '64x64',
+        type: 'image/png',
+      },
+      {
+        rel: 'icon',
+        url: '/favicon-128x128.png',
+        sizes: '128x128',
+        type: 'image/png',
+      },
     ],
   },
 };
