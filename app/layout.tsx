@@ -78,6 +78,16 @@ export default function RootLayout({
             <p className="text-xs text-gray-400 mt-2">
               Built with Next.js & Tailwind CSS
             </p>
+            <p className="text-xs text-gray-400 mt-3">
+              <a
+                href="https://beian.miit.gov.cn/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
+                粤ICP备2026003145号-1
+              </a>
+            </p>
           </div>
         </footer>
       </body>
